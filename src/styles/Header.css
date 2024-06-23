@@ -1,0 +1,13 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #282a36;
+  color: white;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

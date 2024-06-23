@@ -1,0 +1,17 @@
+.card {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
