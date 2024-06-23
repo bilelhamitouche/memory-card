@@ -29,7 +29,7 @@ function App() {
       }
     };
     fetchCharacters(
-      'http://gateway.marvel.com/v1/public/characters?ts=1&apikey=2e91b5a077f2178de00a9e2b528d8a44&hash=e23dc9bad7df8f86dac8aa7095f1dcae',
+      'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=2e91b5a077f2178de00a9e2b528d8a44&hash=e23dc9bad7df8f86dac8aa7095f1dcae',
     );
     return () => {};
   }, []);
